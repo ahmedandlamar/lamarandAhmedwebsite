@@ -1,0 +1,57 @@
+h1{
+    color: steelblue;
+}
+body{
+background-color: aliceblue;
+
+}
+h2{
+text-align: center;
+font-size: 50px;
+}
+
+h1{
+    font-size: small;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+.ahmed{
+    margin-top: 250px;
+    margin-left: 250px;
+
+}
+button{
+font-size: 40;
+width: 40;
+height: 30;
+border-radius: 240px;
+background-color:white ;
+color:coral
+}
+
+button :hover{
+background-color: brown;
+}
+
+img{
+width: 450px;
+margin-top:150px ;
+animation: ahmedimg  2s linear infinite;
+}
+
+@keyframes ahmedimg{
+    0%{
+        transform: translate(20px  , 10px);
+    }
+    50%{
+            transform: translate(11px , -10px );
+}100%{
+    transform: translate(-10px ,-10px);
+}
+}
+
+
+
+
